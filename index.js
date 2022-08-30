@@ -12,7 +12,7 @@ async function getLink(url) {
             var title = $('title').text()
             var url = url
             var siteName = $('title').text()
-            meta.each((i,item)=>{
+            metaTag.each((i,item)=>{
                 var data = $(item).attr('name')
                 var property = $(item).attr('property')
                 if(data === 'description'|| property==='og:description'){
