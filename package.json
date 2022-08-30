@@ -1,7 +1,7 @@
 {
   "name": "link-preview-nwg",
   "version": "1.0.0",
-  "description": "Link Preview api listing information",
+  "description": "NPM package allow to use extract information from HTTP/HTTPS link and retrieve Title , Meta descripton images by SEO/opengraph tags",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,10 @@
     "Link Preview",
     "API"
   ],
-  "author": "Honey Sarkar",
-  "license": "ISC",
+  "author": "Abhijeet Mandal",
+  "email": "abhijeetmandal2502@gmail.com",
+  "license": "GNU General Public License v2.0",
+  "repository": "https://github.com/abhijeetmandal2502/link-preview-nwg",
   "dependencies": {
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.12"
